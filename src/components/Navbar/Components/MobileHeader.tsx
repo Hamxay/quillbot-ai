@@ -9,7 +9,7 @@ export function MobileHeader() {
   return (
     <header className="fixed top-0 left-0 right-0 z-30 flex justify-between items-center p-3 border-b border-gray-200 bg-background">
       <div className="flex items-center">
-        <Image src="/logo.PNG" alt="QuillBot Logo" width={140} height={30} />
+        <Image src="/images/logo.PNG" alt="QuillBot Logo" width={140} height={30} />
       </div>
       <div className="flex items-center gap-2">
         <Button className=" text-white rounded-full h-9 gap-2">

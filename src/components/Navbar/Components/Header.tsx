@@ -20,7 +20,7 @@ export function Header({ title = 'Translator' }: ILayoutProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-30 w-full flex justify-between items-center p-2 border-b border-[#D8DCE2] bg-background ">
       <Image
-        src="/logo.png"
+        src="/images/logo.png"
         alt="QuillBot Logo"
         width={150}
         height={50}
