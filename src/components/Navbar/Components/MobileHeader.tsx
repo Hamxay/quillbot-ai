@@ -1,6 +1,9 @@
-import Image from 'next/image';
-import { Button } from '@/components/core/button';
+'use client';
 import { Menu } from 'lucide-react';
+
+import Image from '@/components/core/image';
+
+import { Button } from '@/components/core/button';
 
 export function MobileHeader() {
   return (

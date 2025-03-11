@@ -1,4 +1,4 @@
-import Image from 'next/image';
+'use client';
 
 import { LogOutIcon, ChevronDownIcon } from 'lucide-react';
 
@@ -9,6 +9,8 @@ import {
   DropdownMenuTrigger,
 } from '@/components/core/dropdown-menu';
 import { Button } from '@/components/core/button';
+
+import Image from '@/components/core/image';
 
 import { ILayoutProps } from '@/types';
 
